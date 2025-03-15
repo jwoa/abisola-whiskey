@@ -1,6 +1,11 @@
 import {person} from './documents/person'
 import {page} from './documents/page'
-import {post} from './documents/post'
+import post from './documents/post'
+import cocktailsPage from './documents/cocktailsPage'
+import stockistsPage from './documents/stockistsPage'
+import cocktail from './objects/cocktail'
+import stockist from './objects/stockist'
+import ingredient from './objects/ingredient'
 import {callToAction} from './objects/callToAction'
 import {infoSection} from './objects/infoSection'
 import {settings} from './singletons/settings'
@@ -16,7 +21,12 @@ export const schemaTypes = [
   page,
   post,
   person,
+  cocktailsPage,
+  stockistsPage,
   // Objects
+  cocktail,
+  stockist,
+  ingredient,
   blockContent,
   infoSection,
   callToAction,

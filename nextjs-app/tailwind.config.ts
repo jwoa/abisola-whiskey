@@ -13,6 +13,18 @@ export default {
         layer: "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
       },
       colors: {
+        amber: {
+          DEFAULT: 'rgb(175,117,16)', // Primary brand color
+        },
+        charcoal: {
+          DEFAULT: 'rgb(28,38,43)', // Secondary brand color
+        },
+        cream: {
+          DEFAULT: 'rgb(245,240,230)', // Complementary accent
+        },
+        gold: {
+          DEFAULT: 'rgb(191,159,64)', // Burnished gold accent
+        },
         black: "#0d0e12",
         white: "#fff",
         cyan: {
@@ -95,7 +107,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-inter)"],
+        serif: ['Playfair Display', 'serif'], // Elegant serif for headings
+        sans: ['Inter', 'sans-serif'], // Modern sans-serif for body
       },
     },
   },

@@ -1,6 +1,6 @@
 {
   "name": "abisola",
-  "description": "Next.js + Sanity: A Powerful Website Starter with Real-time Visual Editing",
+  "description": "A smooth tasting whiskey where the liquid has comes into contact with three different types of oak toasted from light to medium toast. A blend of Bourbon and malt whiskey, notes of vanilla and waffle cone to complement the caramel and spice in the blended base",
   "scripts": {
     "dev": "npm-run-all --parallel dev:*",
     "dev:next": "npm run dev --workspace=nextjs-app",
